@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["5263778+Ffyud@users.noreply.github.com"]
 
   spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/Ffyud/paloma-jekyll"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
