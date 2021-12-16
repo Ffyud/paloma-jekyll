@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ffyud"]
   spec.email         = ["5263778+Ffyud@users.noreply.github.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
+  spec.summary       = "Paloma Jekyll is clean theme for personal websites."
   spec.homepage      = "https://github.com/Ffyud/paloma-jekyll"
   spec.license       = "MIT"
 
