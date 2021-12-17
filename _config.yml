@@ -1,1 +1,7 @@
 theme: paloma-jekyll
+
+navigation_header:
+- title: home
+  url: /
+- title: posts
+  url: /posts
