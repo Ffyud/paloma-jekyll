@@ -1,7 +1,10 @@
 theme: paloma-jekyll
 
+markdown: kramdown
+highlighter: rouge
+
 navigation_header:
 - title: home
   url: /
-- title: posts
-  url: /posts
+- title: docs
+  url: /docs
