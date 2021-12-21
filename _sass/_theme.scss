@@ -1,13 +1,15 @@
 body {
-    background: #FFF;
     color: #000;
+    background: #EEE;
     height: 100%;
     padding: 0px;
     margin: 0px;
+    font-family: monospace;
+    font-size: 20px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0px auto;
 }
 
@@ -15,22 +17,43 @@ body {
     top: 100px;
     position: relative;
 }
+
+pre {
+    overflow-x: scroll;
+}
+
 .header {
+    z-index: 900;
     width: 100%;
-    position: fixed;
-    box-shadow: 0px 4px 0px 0px #000;
+    top: 0px;
+    // position: fixed;
+}
+
+.article, .main {
+    padding: 15px 15px 15px 15px;
+    border-radius: 8px;
 }
 
 .nav { }
+
 .nav--header {}
-.list { list-style-type: none;}
-.list--nav {}
-.item { 
-    display: inline; 
-    box-shadow: 0px 0px 0px 4px #000;
-    padding: 5px;
-    margin: 10px;
+
+.list { 
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    list-style-type: none;
 }
-.item a { text-decoration: none; color: #000;}
+
+.list--nav {}
+
+.item { 
+    display: inline-block; 
+    padding: 10px 10px 10px 10px;
+    margin: 0px 10px 0px 0px;
+    background: #ecff66;
+    color: #000;
+}
+
+.item a { text-decoration: none; color: inherit;}
 .item--nav {}
-.item--current {}
+.item--current { color: rgb(0, 0, 0);}
