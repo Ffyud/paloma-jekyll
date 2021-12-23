@@ -1,11 +1,8 @@
 # paloma-jekyll
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+This is a Jekyll theme which you can use in your Jekyll project.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
-
+To experiment with this theme as a standalone website, add some sample content and run `bundle exec jekyll serve`.
 
 ## Installation
 
@@ -31,11 +28,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+Using this theme is pretty straightforward. It consists of an index page and a docs page.
+
+The docs page shows the articles that have been added to the `_post` folder. Take a look at the example markdown document to see that works.
+
+`_config.yml` contains some configuration options that you should to change when you are using this theme as the basis for your Jekyll website.
+
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ffyud/paloma-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
