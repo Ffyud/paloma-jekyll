@@ -20,7 +20,9 @@ body {
 
 pre {
     overflow-x: scroll;
+    padding: 10px;
 }
+.highlight { border-radius: 10px !important;}
 
 .header {
     z-index: 900;
