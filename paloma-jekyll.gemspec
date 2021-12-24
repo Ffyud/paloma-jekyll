@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "paloma-jekyll"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Ffyud"]
   spec.email         = ["5263778+Ffyud@users.noreply.github.com"]
 
-  spec.summary       = "Paloma Jekyll is clean theme for personal websites."
+  spec.summary       = "Paloma Jekyll is a utilitarian theme for publishing your articles."
   spec.homepage      = "https://github.com/Ffyud/paloma-jekyll"
   spec.license       = "MIT"
 
