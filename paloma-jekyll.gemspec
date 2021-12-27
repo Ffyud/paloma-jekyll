@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "paloma-jekyll"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.3"
   spec.authors       = ["Ffyud"]
   spec.email         = ["5263778+Ffyud@users.noreply.github.com"]
 
