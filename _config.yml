@@ -8,3 +8,20 @@ navigation_header:
   url: /
 - title: docs
   url: /docs/
+
+logo: ""
+title: "Paloma Jekyll"
+short_name: ""
+description: "Paloma Jekyll is a utilitarian theme for publishing your articles. "
+lang: "en-US"
+url: ""
+
+favicons: 
+  16: '/assets/logos/logo@16px.png'
+  32: '/assets/logos/logo@32px.png'
+  96: '/assets/logos/logo@96px.png'
+  120: '/assets/logos/logo@120px.png'
+  144: '/assets/logos/logo@144px.png'
+  180: '/assets/logos/logo@180px.png'
+  512: '/assets/logos/logo@512px.png'
+  1024: '/assets/logos/logo@1024px.png'

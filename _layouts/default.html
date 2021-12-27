@@ -2,7 +2,12 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
+    <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
+    <title>{{ site.title }}</title>
 </head>
 
 <body>
