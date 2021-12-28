@@ -1,6 +1,6 @@
 # paloma-jekyll
 
-This is a Jekyll theme which you can use in your Jekyll project.
+Paloma Jekyll is a utilitarian theme for publishing your articles.
 
 To experiment with this theme as a standalone website, add some sample content and run `bundle exec jekyll serve`.
 
