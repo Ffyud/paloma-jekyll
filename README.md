@@ -1,3 +1,5 @@
+[![Ruby gem](https://img.shields.io/gem/v/paloma-jekyll.svg)](https://rubygems.org/gems/paloma-jekyll)
+
 # paloma-jekyll
 
 Paloma Jekyll is a utilitarian theme for publishing your articles.
