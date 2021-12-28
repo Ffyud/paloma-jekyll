@@ -1,16 +1,29 @@
+@font-face {
+    font-family: "Garamond";
+    font-weight: normal;
+    src: url("fonts/EBGaramond-Regular.ttf");
+  }  
+
+@font-face {
+    font-family: "Garamond";
+    font-weight: bold;
+    src: url("fonts/EBGaramond-Bold.ttf");
+}
+
 body {
     color: #4A5859;
     background: #FFF2EE;
     height: 100%;
     padding: 0px;
     margin: 0px;
-    font-family: monospace;
+    font-family: 'Garamond', serif;
     font-size: 20px;
 }
 
 h1 { 
     color: #C83E4D;
     font-size: 3.5em;
+    font-weight: bold;
     margin: 100px 0px 100px 0px;
 }
 
@@ -38,6 +51,7 @@ pre {
     width: 100%;
     top: 0px;
     background: #FFF;
+    font-family: Arial;
 }
 
 .article, .main {
