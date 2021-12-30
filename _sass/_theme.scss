@@ -17,14 +17,14 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: 'Garamond', serif;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 h1 { 
     color: #C83E4D;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: bold;
-    margin: 100px 0px 100px 0px;
+    margin: 90px 0px 15px 0px;
 }
 
 h2 {
@@ -48,9 +48,12 @@ h2 {
     text-decoration: underline;
     color: inherit;
 }
+.wrap a:hover {
+    color: #C83E4D;
+}
 
 .footer { 
-    height: 150px;
+    height: 30px;
 }
 
 pre {
@@ -60,39 +63,12 @@ pre {
 .highlight { border-radius: 10px !important;}
 
 .header {
-    z-index: 900;
     width: 100%;
     top: 0px;
     background: #FFF;
-    font-family: Arial;
+    height: 30px;
 }
 
 .article, .main {
     padding: 15px 15px 115px 15px;
 }
-
-.nav { }
-
-.nav--header {}
-
-.list { 
-    padding: 10px 10px 10px 10px;
-    margin: 0px 0px 0px 0px;
-    list-style-type: none;
-}
-
-.list--nav {}
-
-.item { 
-    display: inline-block; 
-    padding: 10px 10px 10px 10px;
-    margin: 0px 10px 0px 0px;
-    background: #C83E4D;
-    color: #FFF2EE;
-    border-radius: 4px;
-    box-shadow: 0px 2px 0px 0px #AA4D57;
-}
-
-.item a { text-decoration: none; color: inherit;}
-.item--nav {}
-.item--current { }
