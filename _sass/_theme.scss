@@ -11,7 +11,7 @@
 }
 
 body {
-    color: #4A5859;
+    color: #564742;
     background: #FFF;
     height: 100%;
     padding: 0px;
@@ -24,32 +24,41 @@ h1 {
     color: #C83E4D;
     font-size: 3em;
     font-weight: bold;
-    margin: 90px 0px 15px 0px;
+    margin: 90px 0px 90px 0px;
 }
 
 h2 {
     padding: 30px 0px 15px 0px;
+    box-shadow: 0px 5px 0px 0px #564742;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: square;
 }
 
 .article-date {
     color: #936167;
+    font-size: .7em;
+    text-transform: uppercase;
+    
 }
 
 .container {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0px auto;
 }
 
 .wrap {
     position: relative;
-    background: #FFF2EE;
+    background: #FFF0EE;
 }
 .wrap a {
     text-decoration: underline;
-    color: inherit;
+    color: #C83E4D;
 }
 .wrap a:hover {
-    color: #C83E4D;
+    color: #3A1015;
 }
 
 .footer { 
