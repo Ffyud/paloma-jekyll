@@ -3,12 +3,6 @@ theme: paloma-jekyll
 markdown: kramdown
 highlighter: rouge
 
-navigation_header:
-- title: home
-  url: /
-- title: docs
-  url: /docs/
-
 logo: ""
 title: "Paloma Jekyll"
 short_name: ""
