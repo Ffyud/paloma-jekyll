@@ -30,12 +30,9 @@ Or install it yourself as:
 
 ## Usage
 
-Using this theme is pretty straightforward. It consists of an index page and a docs page.
-
-The docs page shows the articles that have been added to the `_post` folder. Take a look at the example markdown document to see that works.
+Articles should be added to the `_post` folder. Take a look at the example markdown document to see that works.
 
 `_config.yml` contains some configuration options that you should to change when you are using this theme as the basis for your Jekyll website.
-
 
 ## Contributing
 
